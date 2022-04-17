@@ -1,0 +1,24 @@
+[continents]
+Venus 0 yellow
+Mercury 0 yellow
+
+[countries]
+1 Venus-South 1 536 246
+2 Venus-East 1 548 197
+3 Venus-Southwest 1 514 226
+4 Venus-Northwest 1 505 201
+5 Venus-North 1 505 174
+6 Mercury-South 2 523 359
+7 Mercury-East 2 534 333
+8 Mercury-West 2 500 345
+
+
+[borders]
+1 2 7
+2 3 1
+3 4
+4 5
+5 2 3
+6 7
+7 6 5
+8 6

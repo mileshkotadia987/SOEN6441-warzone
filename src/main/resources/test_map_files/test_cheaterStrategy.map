@@ -1,0 +1,24 @@
+[continents]
+Asia 5 yellow
+Europe 3 yellow
+
+[countries]
+1 India 1 536 246
+2 China 1 548 197
+3 Pakistan 1 514 226
+4 SriLanka 1 505 201
+5 Nepal 1 505 174
+6 Germany 2 523 359
+7 UK 2 534 333
+8 Spain 2 500 345
+
+
+[borders]
+1 2 3
+2 3 4
+3 4 1
+4 5 6 1
+5 7 8
+6 7 8
+7 1 2 4
+8 2 3

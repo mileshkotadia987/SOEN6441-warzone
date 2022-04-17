@@ -1,0 +1,116 @@
+{
+    "phase": "IssueOrder",
+    "map_editor": {
+        "continents": [
+            {
+                "name": "Asia",
+                "controlValue": 5,
+                "countries": [
+                    {
+                        "numberOfArmies": 0,
+                        "name": "India"
+                    },
+                    {
+                        "numberOfArmies": 0,
+                        "name": "China"
+                    },
+                    {
+                        "numberOfArmies": 0,
+                        "name": "Pakistan"
+                    },
+                    {
+                        "numberOfArmies": 0,
+                        "name": "SriLanka"
+                    },
+                    {
+                        "numberOfArmies": 0,
+                        "name": "Nepal"
+                    }
+                ]
+            },
+            {
+                "name": "Europe",
+                "controlValue": 3,
+                "countries": [
+                    {
+                        "numberOfArmies": 0,
+                        "name": "Germany"
+                    },
+                    {
+                        "numberOfArmies": 0,
+                        "name": "UK"
+                    },
+                    {
+                        "numberOfArmies": 0,
+                        "name": "Spain"
+                    }
+                ]
+            }
+        ],
+        "neighborCountryMappings": {
+            "Pakistan": [
+                "China",
+                "SriLanka"
+            ],
+            "SriLanka": [
+                "China",
+                "Germany"
+            ],
+            "China": [
+                "Nepal",
+                "India"
+            ],
+            "UK": ["Spain"],
+            "Nepal": [
+                "Pakistan",
+                "SriLanka"
+            ],
+            "Germany": ["UK"],
+            "India": ["China"],
+            "Spain": [
+                "Germany",
+                "Nepal"
+            ]
+        }
+    },
+    "game_pay": {
+        "futureOrders": [],
+        "players": [
+            {
+                "cards": [],
+                "assignCountries": [
+                    "India",
+                    "China",
+                    "Pakistan",
+                    "SriLanka"
+                ],
+                "remainingReinforceCount": 3,
+                "name": "player_1",
+                "orders": [],
+                "strategy": "HUMAN",
+                "reinforceCount": 3
+            },
+            {
+                "cards": [],
+                "assignCountries": [
+                    "Nepal",
+                    "Germany",
+                    "UK",
+                    "Spain"
+                ],
+                "remainingReinforceCount": 6,
+                "name": "player_2",
+                "orders": [],
+                "strategy": "HUMAN",
+                "reinforceCount": 6
+            }
+        ],
+        "currentExecutionIndex": 0,
+        "currentPlayerForIssuePhase": 0,
+        "currentPlayerForExecutionPhase": 0,
+        "friendPlayerMappings": {
+            "player_1": [],
+            "player_2": []
+        }
+    }
+}

@@ -1,0 +1,119 @@
+[Continents]
+1 Mercury 6
+2 Venus 8
+3 Earth 10
+4 Mars 10
+5 Comet 4
+6 Jupiter 12
+7 Saturn 8
+8 Uranus 6
+9 Neptune 6
+10 Pluto 2
+
+[Countries]
+1 Mercury-South 1
+2 Mercury-East 1
+3 Mercury-West 1
+4 Mercury-North 1
+5 Venus-South 2
+6 Venus-East 2
+7 Venus-Southwest 2
+8 Venus-Northwest 2
+9 Venus-North 2
+10 Earth-SouthPole 3
+11 Earth-SouthAmerica 3
+12 Earth-Atlantic 3
+13 Earth-Pacific 3
+14 Earth-NorthAmerica 3
+15 Earth-NorthPole 3
+16 Earth-NorthPacific 3
+17 Mars-South 4
+18 Mars-Southeast 4
+19 Mars-Southwest 4
+20 Mars-Central 4
+21 Mars-Northeast 4
+22 Mars-Northwest 4
+23 Mars-North 4
+24 Comet-Head 5
+25 Comet-Tail 5
+26 Jupiter-South 6
+27 Jupiter-Southeast 6
+28 Jupiter-Southwest 6
+29 Jupiter-RedSpot 6
+30 Jupiter-East 6
+31 Jupiter-Central 6
+32 Jupiter-West 6
+33 Jupiter-Northeast 6
+34 Jupiter-Northwest 6
+35 Jupiter-North 6
+36 Saturn-South 7
+37 Saturn-Southeast 7
+38 Saturn-Southwest 7
+39 Saturn-EastRings 7
+40 Saturn-WestRings 7
+41 Saturn-North 7
+42 Uranus-South 8
+43 Uranus-Southeast 8
+44 Uranus-West 8
+45 Uranus-Northeast 8
+46 Uranus-North 8
+47 Neptune-South 9
+48 Neptune-East 9
+49 Neptune-West 9
+50 Neptune-North 9
+51 Pluto-East 10
+52 Pluto-West 10
+
+[borders]
+1 2 3 17 
+2 1 3 4 
+3 1 2 4 10 
+4 2 3 5 
+5 4 6 7 
+6 5 7 8 9 
+7 5 6 8 11 
+8 6 7 9 12 
+9 6 8 36 
+10 3 11 13 
+11 7 10 12 13 14 
+12 8 11 13 14 
+13 10 11 12 14 15 16 21 
+14 11 12 13 15 38 
+15 13 14 16 
+16 13 15 23 27 
+17 1 18 19 
+18 17 19 20 
+19 17 18 20 24 
+20 18 19 21 22 
+21 13 20 22 23 
+22 20 21 23 26 
+23 16 21 22 
+24 19 25 
+25 24 32 
+26 22 27 28 
+27 16 26 28 29 30 31 
+28 26 27 29 32 42 
+29 27 28 31 32 
+30 27 31 33 38 
+31 27 29 30 32 33 34 
+32 25 28 29 31 33 34 
+33 30 31 32 34 35 40 
+34 31 32 33 35 43 47 
+35 33 34 41 
+36 9 37 38 
+37 36 38 39 40 41 
+38 14 30 36 37 40 41 
+39 37 40 41 
+40 33 37 38 39 41 
+41 35 37 38 39 40 48 
+42 28 43 44 
+43 34 44 45 42 
+44 42 43 45 46 
+45 43 44 46 49 
+46 44 45 
+47 34 48 49 
+48 41 47 49 50 
+49 45 47 48 50 
+50 48 49 51 
+51 50 52 
+52 51 
